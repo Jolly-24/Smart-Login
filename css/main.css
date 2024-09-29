@@ -1,0 +1,52 @@
+body{
+    background: #24353f;
+}
+section{
+    background: #24353f;
+}
+.loginContainer,.title{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+h1{
+    color: #17a2b8;
+}
+button{
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+    background-color: transparent;
+    color: #17a2b8;
+    border: 1px solid #17a2b8;
+}
+button a{
+    color: #17a2b8;
+    text-decoration: none;
+}
+button:hover{
+    background-color: #17a2b8;
+    color: white;
+}
+button:hover a{
+    color: white;
+}
+input{
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    outline: none;
+}
+input::placeholder{
+    color: rgb(168, 168, 168);
+}
+p{
+    color: white;
+}
+p a{
+    color: white;
+    text-decoration: none;
+}
+p a:hover{
+    text-decoration: underline;
+}
